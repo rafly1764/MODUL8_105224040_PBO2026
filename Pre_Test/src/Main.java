@@ -20,7 +20,7 @@ class Programmer extends Karyawan {
 
 public class Main {
     public static void main(String[] args) {
-        Programmer p1 = new Programmer("Rafly", 7000000);
+        Programmer p1 = new Programmer("Rafly", 6700000);
         System.out.println("Nama: " + p1.nama);
         System.out.println("Total Gaji: Rp" + p1.hitungGaji());
     }
